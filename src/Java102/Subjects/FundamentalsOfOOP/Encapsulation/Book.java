@@ -13,22 +13,22 @@ public class Book {
         this.pageNumber = pageNumber;
     }
 
-    public void changePageNumber(int pageNumber){
+    public void setPageNumber(int pageNumber){
         if (pageNumber < 0){
             pageNumber = 0;
         }
         this.pageNumber = pageNumber;
     }
 
-    public int showPageNumber(){
+    public int getPageNumber(){
         return this.pageNumber;
     }
 
-    public void changeName(String name){
+    public void setName(String name){
         this.name = name;
     }
 
-    public String showName(){
+    public String getName(){
         return this.name;
     }
 }
