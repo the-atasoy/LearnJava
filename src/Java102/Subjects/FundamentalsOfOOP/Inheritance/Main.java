@@ -22,5 +22,17 @@ public class Main {
         Objects can be created from classes and these objects are able to use methods of their super classes.
          */
 
+        /*
+        ------------------------------------------------------
+         */
+
+        // Method overriding
+        // Method "enter" is in "Employee" class but this "enter" method was overrided in "Instructor" class,
+        // so it was used from "Instructor" class instead of "Employee" class.
+        i1.enter();
+
+        t1.enter(); // this code checks "Teacher" class before and if there is no "enter" method, it checks "Instructor" class.
+                    // If there is no "enter" method in "Instructor" class, it checks "Employee" class.
+
     }
 }

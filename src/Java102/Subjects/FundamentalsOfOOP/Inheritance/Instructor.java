@@ -27,4 +27,9 @@ public class Instructor extends Employee{
     public void startLesson(){
         System.out.println(this.getName() + " started a lesson.");
     }
+
+    @Override
+    public void enter(){
+        System.out.println("Instructor " + this.getName() + " entered the university.");
+    }
 }

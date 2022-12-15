@@ -21,4 +21,10 @@ public class Teacher extends Instructor{
     public void doExam(){
         System.out.println(this.getName() + " started an exam.");
     }
+
+    @Override
+    public void enter(){
+        System.out.println("Teacher " + this.getName() + " entered the university.");
+    }
+
 }
