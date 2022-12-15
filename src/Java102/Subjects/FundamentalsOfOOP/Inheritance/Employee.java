@@ -47,4 +47,21 @@ public class Employee {
     public void cafeteria(){
         System.out.println(this.name + " entered the cafeteria.");
     }
+
+
+    /*
+    ------------------------------------------------------------------------
+     */
+
+    //Polymorphism
+    public static void entrants(Employee[] loginUsers){
+        for (Employee e : loginUsers){
+            e.enter();
+        }
+    }
+
+    /*
+        To use something like above, elements in "loginUsers" array need to have "enter" method, or they must be subclasses
+        of a super class contains "enter" method.
+     */
 }
