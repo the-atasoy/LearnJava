@@ -1,6 +1,6 @@
 package Java102.Subjects.FundamentalsOfOOP.Inheritance;
 
-public class Instructor extends Employee{
+public abstract class Instructor extends Employee{
     private String department;
     private String title;
 
@@ -24,9 +24,7 @@ public class Instructor extends Employee{
         this.title = title;
     }
 
-    public void startLesson(){
-        System.out.println(this.getName() + " started a lesson.");
-    }
+    public abstract void startLesson(String courseHourse);
 
     @Override
     public void enter(){

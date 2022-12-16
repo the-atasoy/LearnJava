@@ -19,4 +19,9 @@ public class Assistant extends Instructor{
     public void doQuiz(){
         System.out.println(this.getName() + " started a quiz.");
     }
+
+    @Override
+    public void startLesson(String courseHours){
+
+    }
 }

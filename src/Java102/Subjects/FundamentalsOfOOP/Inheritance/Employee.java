@@ -1,6 +1,6 @@
 package Java102.Subjects.FundamentalsOfOOP.Inheritance;
 
-public class Employee {
+public abstract class Employee {
 
     private String name;
     private String phone;

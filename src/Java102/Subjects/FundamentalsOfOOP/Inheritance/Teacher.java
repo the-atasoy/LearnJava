@@ -27,4 +27,9 @@ public class Teacher extends Instructor{
         System.out.println("Teacher " + this.getName() + " entered the university.");
     }
 
+    @Override
+    public void startLesson(String courseHours){
+        System.out.println("Teacher " + this.getName() + " started a lesson at " + courseHours + ".");
+    }
+
 }

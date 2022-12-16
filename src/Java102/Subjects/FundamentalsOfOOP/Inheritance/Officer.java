@@ -1,6 +1,6 @@
 package Java102.Subjects.FundamentalsOfOOP.Inheritance;
 
-public class Officer extends Employee{
+public abstract class Officer extends Employee{
 
     private String part;
     private String shift;
