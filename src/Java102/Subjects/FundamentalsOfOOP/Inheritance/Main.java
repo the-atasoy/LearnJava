@@ -43,8 +43,8 @@ public class Main {
         // Polymorphism
         Employee i2 = new Instructor("Betül Atasoy", "05128978989", "betul@gmail.com", "AI", "Proffessor");
         i2.enter(); // this code works from "Instructor" class because "enter" method exists in "Employee" class and it overrided.
-        // i2.getDepartment(); this code does not work because getDepartment method does not exist in Employee class.
-        i2.exit(); // this code works from "Employee" class because it does not exist in "Instructor" class.
+        // i2.getDepartment(); this code does not work because "getDepartment" method does not exist in Employee class.
+        i2.exit(); // this code works from "Employee" class because it was not overrided in "Instructor" class.
 
 
         Employee[] loginUsers = {e1, i1, o1, t1};
